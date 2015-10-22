@@ -1,0 +1,33 @@
+<!-- filter results panel -->
+
+<zf-panel id="filters" position="right" zf-swipe-close="right">
+	<a zf-close="" class="close-button">×</a>
+	<div class="grid-content">
+		<h4>Price</h4>
+		<ul class="no-bullet">
+			<li ng-repeat="price in vars.price">
+				<input id="{{ price }}" type="checkbox"><label for="{{ price }}">{{ price }}</label>
+			</li>
+		</ul>
+
+		<h4>Beds</h4>
+		<ul class="no-bullet">
+			<li ng-repeat="beds in vars.beds">
+				<input id="{{ beds }}" type="checkbox"><label for="{{ beds }}">{{ beds }}</label>
+			</li>
+		</ul>
+
+		<h4>Bath</h4>
+		<ul class="no-bullet">
+			<li>
+				<input type="checkbox"><label for="bath">1+</label>
+				<input type="checkbox"><label for="bath">2+</label>
+				<input type="checkbox"><label for="bath">3+</label>
+			</li>
+		</ul>
+
+	</div>
+</div>
+
+
+

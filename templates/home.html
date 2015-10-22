@@ -1,0 +1,44 @@
+---
+name: home
+url: /
+animationIn: fadeIn
+---
+
+<div class="grid-block main-search align-center" style="padding-top: 20px;">
+	<div class="grid-content medium-10">
+	  <h1><strong>Find Your New Home Today</strong></h1>
+	  <p class="lead show-for-medium-up">Explore more than 100,000 Homes across Chicagoland.</p>
+		<span class="inline-label">
+			<input type="search" placeholder="Search by city or zip code">
+			<a href="#" ui-sref="results" class="button"><img zf-iconic="" icon="magnifying-glass" size="small"></a>
+		</span>
+	</div>
+</div>
+
+<div class="grid-block">
+	<div class="grid-content large-6">
+		<h3><img zf-iconic="" icon="person" size="medium" >Truepad Trusted Agents</h3>
+    <p>When you're ready to buy, we'll <strong> custom match </strong> you with the right independent agent for your unique home search, so you get <strong>the best deal</strong> on the home you want now. <br> Trusted Agents have access to up to 30% more homes, giving you an advantage.</p>
+	</div>
+	<div class="grid-content large-6">
+		<h3><img zf-iconic="" icon="document" size="medium" >Exclusive Property Reviews</h3>
+    	<p>Professional Agent reviews give you a sneak peek inside the homes you're interested in. Feature cards show what aspects of a home agents like best.</p>
+	</div>
+</div>
+
+<div class="grid-block">
+	<div class="grid-content">
+		<hr>
+		<h4><img zf-iconic="" icon="home" size="medium" >Truepad Hot Homes</h4>
+   		<p>Built on the collective wisdom of the best agents, our proprietary technology analyzes the activity and trends in the market to identify homes that provide exceptional value and are likely to sell fast.</p>
+    	<p class=""><a ui-sref="home.featured" class="button">View Hot Homes</a></p>
+	</div>
+</div>
+
+<!-- featured trails view -->
+<div ui-view></div>
+
+
+
+
+

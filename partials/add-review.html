@@ -1,0 +1,27 @@
+
+<zf-modal id="reviewForm" class="collapse">
+	<div class="grid-block vertical">
+		<div class="primary title-bar">
+			<span class="title left">Review this Home</span>
+			<span zf-close="" class="right"><a><img zf-iconic="" icon="circle-x" size="small"></a></span>
+		</div>
+		<div class="grid-content">
+			<form>
+			  <br>
+			  <input type="text" placeholder="Name">
+			  <textarea rows="6" placeholder="Your review"></textarea>
+			  <ul class="no-bullet">
+			      <li class="no-bullet"
+			        <strong>Rating:</strong> 
+			        <img zf-iconic="" icon="star" size="small" class="iconic-color-secondary">
+			        <img zf-iconic="" icon="star" size="small" class="iconic-color-secondary">
+			        <img zf-iconic="" icon="star" size="small" class="iconic-color-secondary">
+			        <img zf-iconic="" icon="star" size="small" class="iconic-color-secondary">
+			        <img zf-iconic="" icon="star" size="small" class="iconic-color-secondary">
+			      </li>
+			  </ul>
+			  <p><a class="medium button success" zf-close=""><img ui-sref="review-notify" zf-open="review-notify" zf-iconic="" icon="circle-check" size="small"> Add Review</a></p> 
+			</form>			
+		</div>
+	</div>
+</zf-modal>
